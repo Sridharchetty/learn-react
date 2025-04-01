@@ -1,0 +1,112 @@
+03/08/2024
+========================
+- Config Driven UI
+    - config for different location.
+
+03/03/2025 - From Ep-5
+====================================
+- File Structuring
+- Export and Import Components
+- Utilis ==> constant.js - hardcode data || mockData.js - mock json data
+- Default vs Named Export (Ex. dxport default variable vs export variable)
+
+03/04/2025 - From Ep-5
+====================================
+- Dynamic data
+- Normal variable Vs State variable - Super powerful variable
+- Rerendering --> DOM operation - superfast - DOM Manipulationnew VDOM
+        - Will update the new VDOM
+- Why react is fast??? 
+    - Efficient DOM Manipulation - VDOM
+    - React Algoritham
+    ==================
+        - Reconcilation Algoritham (React Fibre)
+        =========================================
+        - Virtual DOM --> Representation of actual DOM
+        -Diff Algoritham
+        - Difference between old and 
+
+03/04/2025 - From Ep-6
+====================================
+- Monolith - Tightly coupled with both Front-end and Back-end 
+- Microservices - Single responsibility
+- REACT - render fast
+- useEffect
+- CORS 
+
+03/05/2025 - From Ep-6
+=======================================
+- Optional Chaining
+- Shimmer UI
+- Conditonal Rendering
+- When? Where? && Why? we have to use useState function
+- Button? || component? render after updating the useState
+- Login/Register with useState
+
+03/06/2025 - From Ep-6
+=======================================
+- Search Fuctionality
+- Whenever you change or update the state variable, React will rerender the component
+- Whenever state variable update, react triggers a Reconcilation cycle(re-render the component)
+
+03/06/2025 - From Ep-7
+=======================================
+- useEffect --> will render after everything rendered from component
+    - If no dependendacy array, useEffect will be called on every render
+
+03/10/2025 - From Ep-7
+=======================================
+- Dont use useState inside If Conditon & For Loop
+- Routing
+    - Routing configuration
+- createBrowserRounter, RouterProvider, useRouterError
+- Router Children -- Outlet is the rescue.
+- Link component --> It is superpower given by react router dom
+- Reload Page Vs Refresh component
+- SINGLE PAGE APPLICATION
+
+03/11/2025 - From Ep-7
+=======================================
+- 2 Types of Routing
+    - Client Side Routing
+    - Server Side Routing
+
+03/18/2025 - From Ep-8
+=======================================
+- Class component
+    - Life Cycle of component
+- Order of Rendering the component
+    - Constructor will be called 1st
+    - Then render function will be called
+
+03/21/2025 - From Ep-8
+=======================================
+- setInterval example for componentWillUnmount
+
+- Single Responsibility Principle - easy usable, maintable and testable
+- Custom Hooks
+
+03/24/2025 - From Ep-9
+=======================================
+- Custom hook creation
+
+03/25/2025 - From Ep-9
+=======================================
+- Chunking
+- code splitting
+- Dynamic budling
+- Optimizing...
+- Lazy loading
+- On demand loading
+
+03/26/2025 - From Ep-10
+=======================================
+- Tailwind
+
+03/27/2025 - From Ep-10
+=======================================
+- Higher Order component
+
+04/01/2025 - From Ep-10
+=======================================
+- Props Drilling
